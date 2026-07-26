@@ -1,8 +1,32 @@
 aid: evvy
 name: Evvy
-description: Evvy is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Evvy is a women's health company offering at-home vaginal microbiome testing
+  and personalized care. Its CLIA-certified metagenomic (mNGS) Vaginal Health
+  Test identifies over 700 bacteria and fungi from a self-collected sample,
+  with results reviewed by licensed clinicians who deliver personalized insights
+  and clinician-designed treatment programs for conditions such as bacterial
+  vaginosis, aerobic vaginitis, yeast infections, recurrent UTIs, and
+  fertility-related concerns. Evvy also sells a line of vaginal health products
+  including probiotics and boric-acid, hyaluronic-acid, and probiotic
+  suppositories, plus a provider program for clinicians and a large library of
+  science-backed educational content. Backed by General Catalyst, Evvy was
+  surfaced as a portfolio company and added to the API Evangelist network. Evvy
+  is a direct-to-consumer health and e-commerce business and does not currently
+  publish a public developer API, OpenAPI, or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/evvy/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/60a1cd099a728eed5b4a7cdf/60ee4d8bca56740485fd865e_Site%20Preview%20(1).jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +35,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Women's Health
+- Diagnostics
+- Microbiome
+- Testing
+- Telehealth
+- Consumer Health
+- E-commerce
 apis: []
+common:
+- type: DomainSecurity
+  url: security/evvy-domain-security.yml
+- type: Website
+  url: https://www.evvy.com
+- type: Blog
+  url: https://www.evvy.com/ask
+- type: Support
+  url: https://support.evvy.com/en/
+- type: Pricing
+  url: https://www.evvy.com/shop-all
+- type: Login
+  url: https://my.evvy.com/login/
+- type: TermsOfService
+  url: https://www.evvy.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.evvy.com/privacy-policy
+- type: About
+  url: https://www.evvy.com/about
+- type: LLMsTxt
+  url: llms/evvy-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
